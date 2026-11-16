@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mendoza's Concrete LLC — Driveways, Patios &amp; Concrete Work in Lansing, MI</title>
+<meta name="description" content="Mendoza's Concrete LLC — Licensed &amp; insured concrete contractor serving Lansing and Mid-Michigan. Driveways, patios, sidewalks, garage floors, pole barn slabs, decorative &amp; stamped concrete, curb &amp; gutter. Free estimates. Call or text Hector at (517) 862-7398.">
+<style>
+  :root{
+    --ink:#1c1f22; --ink2:#2b2f33; --paper:#f4f3f0; --card:#ffffff;
+    --amber:#e8730c; --amber-dark:#c85f08; --amber-soft:#fdf0e2;
+    --line:#e2e0da; --muted:#5c6065; --green:#1e7a46;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+  a{color:inherit}
+  .demo-banner{background:#f5b301;color:#231a00;text-align:center;font-size:12.5px;font-weight:600;letter-spacing:.06em;padding:8px 14px}
+  header.site{position:sticky;top:0;z-index:50;background:rgba(28,31,34,.97);color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+  .header-inner{max-width:1120px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+  .brand-mark{width:44px;height:44px;flex:none;border-radius:8px;background:var(--amber);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:22px;color:#fff}
+  .brand-name{font-size:19px;font-weight:800;line-height:1.15;letter-spacing:.01em}
+  .brand-sub{font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:#c9cdd2}
+  nav.main{display:flex;gap:4px;flex-wrap:wrap}
+  nav.main a{color:#dfe3e6;text-decoration:none;font-size:14.5px;font-weight:600;padding:8px 12px;border-radius:6px}
+  nav.main a:hover{background:#33383c;color:#fff}
+  .btn{display:inline-block;text-decoration:none;font-weight:700;font-size:15.5px;padding:13px 24px;border-radius:8px;border:0;cursor:pointer;transition:transform .12s ease, box-shadow .12s ease;text-align:center}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-amber{background:var(--amber);color:#fff;box-shadow:0 4px 14px rgba(232,115,12,.35)}
+  .btn-amber:hover{background:var(--amber-dark)}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-outline{background:transparent;color:#fff;border:2px solid #fff}
+  .btn-outline:hover{background:rgba(255,255,255,.12)}
+  .btn-sm{padding:10px 18px;font-size:14px}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  section{padding:64px 0}
+  .eyebrow{font-size:12.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--amber-dark)}
+  h1{font-size:clamp(34px,5.4vw,58px);line-height:1.05;font-weight:900;letter-spacing:-.01em}
+  h2{font-size:clamp(26px,3.6vw,38px);line-height:1.15;font-weight:900;letter-spacing:-.01em;margin:10px 0 12px}
+  h3{font-size:20px;font-weight:800}
+  .lede{font-size:18px;color:var(--muted);max-width:640px}
+  .hero{background:linear-gradient(135deg,#23272b 0%,#2e3337 55%,#3a3f44 100%);color:#fff;padding:78px 0 72px;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent 0 26px,rgba(255,255,255,.025) 26px 28px);pointer-events:none}
+  .hero .wrap{position:relative;z-index:1}
+  .hero p.lede{color:#c9cdd2;margin:18px 0 28px;max-width:620px}
+  .hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+  .trust-chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:34px}
+  .chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);color:#fff;border-radius:999px;padding:8px 15px;font-size:13.5px;font-weight:700}
+  .chip .dot{color:#7ee2a8;margin-right:6px}
+  .spotlight{background:var(--amber-soft);border:1px solid #f3d3ae;border-left:6px solid var(--amber);border-radius:12px;padding:28px 30px;display:flex;gap:22px;align-items:flex-start;flex-wrap:wrap}
+  .spotlight .spot-icon{font-size:38px;line-height:1}
+  .spotlight h3{font-size:22px;margin-bottom:6px}
+  .spotlight p{color:#4a4238;max-width:720px}
+  .spotlight .btn{margin-left:auto;align-self:center}
+  .toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:26px 0 22px}
+  .search{flex:1;min-width:220px;max-width:360px;display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:11px 14px}
+  .search input{border:0;outline:0;font-size:15px;width:100%;font-family:inherit}
+  .filters{display:flex;gap:8px;flex-wrap:wrap}
+  .filter-btn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 16px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}
+  .filter-btn:hover{border-color:var(--amber)}
+  .filter-btn.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+  .service-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 24px;display:flex;flex-direction:column;gap:8px;transition:box-shadow .15s ease, transform .15s ease}
+  .service-card:hover{box-shadow:0 10px 28px rgba(0,0,0,.12);transform:translateY(-2px)}
+  .service-icon{font-size:30px;line-height:1}
+  .service-card h3{font-size:19px}
+  .service-card p{color:var(--muted);font-size:15px;flex:1}
+  .service-tag{align-self:flex-start;background:#eef0f1;color:#4a4f54;border-radius:999px;padding:4px 11px;font-size:12px;font-weight:700;letter-spacing:.04em}
+  .service-card a.card-cta{font-weight:800;color:var(--amber-dark);text-decoration:none;font-size:15px}
+  .service-card a.card-cta:hover{text-decoration:underline}
+  .no-results{display:none;text-align:center;color:var(--muted);padding:36px 0;font-size:16px}
+  .no-results.show{display:block}
+  .work-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;margin-top:26px}
+  .work-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 24px}
+  .work-card .work-kicker{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-dark)}
+  .work-card h3{margin:8px 0 8px;font-size:19px}
+  .work-card p{color:var(--muted);font-size:15px}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 24px}
+  .step-num{width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;font-weight:900;font-size:19px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+  .step h3{font-size:18px;margin-bottom:6px}
+  .step p{color:var(--muted);font-size:15px}
+  .estimate{background:var(--ink);color:#fff}
+  .estimate h2{color:#fff}
+  .estimate .lede{color:#c9cdd2}
+  .estimate-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:44px;align-items:start}
+  .estimate-points{list-style:none;margin-top:22px;display:flex;flex-direction:column;gap:12px}
+  .estimate-points li{display:flex;gap:10px;align-items:flex-start;font-size:16px;color:#e6e9eb}
+  .estimate-points li::before{content:"✓";color:#7ee2a8;font-weight:900;flex:none}
+  form.estimate-form{background:#fff;color:var(--ink);border-radius:14px;padding:30px 28px;box-shadow:0 16px 40px rgba(0,0,0,.3)}
+  form.estimate-form h3{margin-bottom:4px}
+  form.estimate-form .form-sub{color:var(--muted);font-size:14.5px;margin-bottom:20px}
+  .field{margin-bottom:14px}
+  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  label{display:block;font-weight:700;font-size:13.5px;margin-bottom:6px}
+  input[type=text],input[type=tel],select,textarea{width:100%;border:1px solid #cfd2d4;border-radius:8px;padding:12px 13px;font-size:15px;font-family:inherit;background:#fff;color:var(--ink)}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--amber);outline-offset:1px;border-color:var(--amber)}
+  textarea{min-height:96px;resize:vertical}
+  .field.invalid input,.field.invalid select{border-color:#c0392b}
+  .field .err{display:none;color:#c0392b;font-size:13px;margin-top:4px}
+  .field.invalid .err{display:block}
+  .form-note{font-size:13px;color:var(--muted);margin-top:12px;text-align:center}
+  .confirm{display:none;margin-top:18px;border:1px solid #bfe3c8;background:#eef7f0;border-radius:10px;padding:20px}
+  .confirm.show{display:block}
+  .confirm h4{color:var(--green);font-size:18px;margin-bottom:6px}
+  .confirm p{font-size:15px;color:#2c3a31;white-space:pre-line}
+  .confirm .btn{margin-top:14px}
+  .area-band{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .area-inner{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  .area-inner p{color:var(--muted);max-width:640px}
+  footer.site{background:var(--ink);color:#c9cdd2;padding:48px 0 30px}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px}
+  .foot-grid h4{color:#fff;font-size:15px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
+  .foot-grid ul{list-style:none;display:flex;flex-direction:column;gap:8px;font-size:15px}
+  .foot-grid a{color:#c9cdd2;text-decoration:none}
+  .foot-grid a:hover{color:#fff;text-decoration:underline}
+  .foot-bottom{border-top:1px solid #33383c;margin-top:36px;padding-top:20px;font-size:13.5px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .float-call{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:var(--amber);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(0,0,0,.35);text-decoration:none}
+  .float-call:hover{background:var(--amber-dark)}
+  .toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,140%);background:var(--ink);color:#fff;padding:13px 22px;border-radius:8px;font-size:14.5px;font-weight:600;z-index:70;transition:transform .3s ease;box-shadow:0 12px 30px rgba(0,0,0,.35)}
+  .toast.show{transform:translate(-50%,0)}
+  @media (max-width:860px){
+    .estimate-grid{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr}
+    nav.main{display:none}
+    section{padding:48px 0}
+    .hero{padding:60px 0 56px}
+  }
+  @media (max-width:560px){
+    .field-row{grid-template-columns:1fr}
+    .spotlight .btn{margin-left:0}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo-banner">DEMO PREVIEW &nbsp;—&nbsp; This site was built for Mendoza's Concrete LLC to preview. It is not live on their domain yet.</div>
+
+<header class="site">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">M</span>
+      <span>
+        <span class="brand-name">Mendoza's Concrete LLC</span><br>
+        <span class="brand-sub">Lansing &middot; Mid-Michigan</span>
+      </span>
+    </a>
+    <nav class="main" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#recent-work">Recent Work</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#estimate">Free Estimate</a>
+    </nav>
+    <a class="btn btn-amber btn-sm" href="tel:+15178627398">&#9742; (517) 862-7398</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero" style="padding-top:78px">
+    <div class="wrap">
+      <div class="eyebrow" style="color:#f5a65b">Concrete Contractor &middot; Lansing, MI</div>
+      <h1 style="margin-top:14px">Solid concrete.<br>Done right the first time.</h1>
+      <p class="lede">Reliable. Honest. Dependable. Mendoza's Concrete LLC pours driveways, patios, sidewalks, garage floors, pole barn slabs, and decorative concrete for homes and businesses across Lansing and Mid-Michigan.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-amber" href="tel:+15178627398">Call or Text Hector — (517) 862-7398</a>
+        <a class="btn btn-outline" href="#estimate">Get a Free Estimate</a>
+      </div>
+      <div class="trust-chips">
+        <span class="chip"><span class="dot">&#10003;</span>Licensed &amp; Insured</span>
+        <span class="chip"><span class="dot">&#10003;</span>Residential &amp; Commercial</span>
+        <span class="chip"><span class="dot">&#10003;</span>Free Estimates</span>
+        <span class="chip"><span class="dot">&#10003;</span>Military Discount Available</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEASONAL SPOTLIGHT -->
+  <section style="padding-bottom:0">
+    <div class="wrap">
+      <div class="spotlight">
+        <span class="spot-icon" aria-hidden="true">&#10052;</span>
+        <div>
+          <h3>Before the Michigan freeze sets in</h3>
+          <p>Concrete season is short in Michigan, and freeze-thaw is hardest on cracked, worn-out concrete. If your driveway, patio, or sidewalk needs work, now is the time to get on the schedule — call or text Hector for a free, no-obligation estimate and lock in your spot before winter.</p>
+        </div>
+        <a class="btn btn-amber" href="tel:+15178627398">Call (517) 862-7398</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="eyebrow">What We Do</div>
+      <h2>Concrete work for your home or business</h2>
+      <p class="lede">Adding or replacing concrete? Search or filter the services below — then call or text Hector for a free, no-obligation estimate.</p>
+      <div class="toolbar">
+        <div class="search">
+          <span aria-hidden="true">&#128269;</span>
+          <input type="text" id="serviceSearch" placeholder="Search services — try &quot;driveway&quot; or &quot;patio&quot;" aria-label="Search services">
+        </div>
+        <div class="filters" id="serviceFilters">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="residential">Residential</button>
+          <button class="filter-btn" type="button" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" type="button" data-filter="decorative">Decorative</button>
+        </div>
+      </div>
+      <div class="services-grid" id="servicesGrid">
+        <article class="service-card" data-category="residential">
+          <div class="service-icon" aria-hidden="true">&#128663;</div>
+          <span class="service-tag">Residential</span>
+          <h3>Driveways</h3>
+          <p>New driveway pours and tear-out &amp; replace — a smooth, clean finish built to handle Michigan winters and daily traffic.</p>
+          <a class="card-cta" href="#estimate" data-service="Driveways">Get a free estimate &rarr;</a>
+        </article>
+        <article class="service-card" data-category="residential">
+          <div class="service-icon" aria-hidden="true">&#127795;</div>
+          <span class="service-tag">Residential</span>
+          <h3>Patios</h3>
+          <p>Concrete patios made for cookouts, fire pits, and summer evenings — poured to fit your yard and how you use it.</p>
+          <a class="card-cta" href="#estimate" data-service="Patios">Get a free estimate &rarr;</a>
+        </article>
+        <article class="service-card" data-category="residential">
+          <div class="service-icon" aria-hidden="true">&#128694;</div>
+          <span class="service-tag">Residential</span>
+          <h3>Sidewalks</h3>
+          <p>Walkways and sidewalks that are level, safe, and built to last — new installs or replacing cracked, heaved slabs.</p>
+          <a class="card-cta" href="#estimate" data-service="Sidewalks">Get a free estimate &rarr;</a>
+        </article>
+        <article class="service-card" data-category="residential commercial">
+          <div class="service-icon" aria-hidden="true">&#127968;</div>
+          <span class="service-tag">Residential &amp; Commercial</span>
+          <h3>Garage Floors</h3>
+          <p>Strong, level garage floors for your home, shop, or business — smooth, clean, and built to last.</p>
+          <a class="card-cta" href="#estimate" data-service="Garage Floors">Get a free estimate &rarr;</a>
+        </article>
+        <article class="service-card" data-category="residential commercial">
+          <div class="service-icon" aria-hidden="true">&#127806;</div>
+          <span class="service-tag">Residential &amp; Commercial</span>
+          <h3>Pole Barn Slabs</h3>
+          <p>Pole barn and shop floors poured right — including floors with drains — so your building is ready to work in.</p>
+          <a class="card-cta" href="#estimate" data-service="Pole Barn Slabs">Get a free estimate &rarr;</a>
+        </article>
+        <article class="service-card" data-category="decorative residential">
+          <div class="service-icon" aria-hidden="true">&#10022;</div>
+          <span class="service-tag">Decorative</span>
+          <h3>Decorative &amp; Stamped Concrete</h3>
+          <p>Stamped and decorative finishes that give plain concrete the look of stone, brick, or tile — without the upkeep.</p>
+          <a class="card-cta" href="#estimate" data-service="Decorative &amp; Stamped Concrete">Get a free estimate &rarr;</a>
+        </article>
+        <article class="service-card" data-category="commercial">
+          <div class="service-icon" aria-hidden="true">&#128739;</div>
+          <span class="service-tag">Commercial</span>
+          <h3>Curb &amp; Gutter</h3>
+          <p>Curb and gutter work for parking lots, storefronts, and commercial sites — built to move water and hold up to traffic.</p>
+          <a class="card-cta" href="#estimate" data-service="Curb &amp; Gutter">Get a free estimate &rarr;</a>
+        </article>
+      </div>
+      <p class="no-results" id="noResults">No services match that search. Try a different word — or call or text Hector at <a href="tel:+15178627398">(517) 862-7398</a>.</p>
+    </div>
+  </section>
+
+  <!-- RECENT WORK -->
+  <section id="recent-work" style="padding-top:0">
+    <div class="wrap">
+      <div class="eyebrow">Recent Work</div>
+      <h2>Work we're proud to stand behind</h2>
+      <p class="lede">Concrete is what we do every day — and sometimes it means a whole lot more. A few recent jobs from around Lansing:</p>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-kicker">Community Project &middot; Lansing</div>
+          <h3>Little Arlington Veterans Memorial</h3>
+          <p>Concrete work for the memorial area at Evergreen Cemetery in Lansing — plus a handmade concrete bench, donated by the crew so visiting families have a place to sit, reflect, and remember.</p>
+        </article>
+        <article class="work-card">
+          <div class="work-kicker">Pole Barn &middot; 56 &times; 34</div>
+          <h3>Pole Barn Floor with Dual Drains</h3>
+          <p>A 56&times;34 pole barn floor with dual drains — smooth, clean, and built to last. No shortcuts, no excuses: solid concrete work done right the first time.</p>
+        </article>
+        <article class="work-card">
+          <div class="work-kicker">Commercial &middot; W. Grand River</div>
+          <h3>Gas Station Concrete</h3>
+          <p>A full concrete pour for a gas station on W. Grand River — built to take constant vehicle traffic, day in and day out.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+    <div class="wrap">
+      <div class="eyebrow">How It Works</div>
+      <h2>From first call to finished concrete</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Call or Text Hector</h3>
+          <p>Tell us what you're thinking about adding or replacing — a patio, driveway, sidewalk, garage floor, pole barn slab, or more.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Free, No-Obligation Estimate</h3>
+          <p>We come out, look at the job, and give you a straight, honest estimate. Free — and no pressure either way.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Get on the Schedule</h3>
+          <p>Pick a date that works. Our crew shows up, preps the site, and pours — quality workmanship you can trust.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <h3>Solid Work, Built to Last</h3>
+          <p>From dirt to a flawless finish. We take pride in every project from start to finish — and it shows in the work.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTIMATE FORM -->
+  <section class="estimate" id="estimate">
+    <div class="wrap estimate-grid">
+      <div>
+        <div class="eyebrow" style="color:#f5a65b">Free Estimates</div>
+        <h2>Get your free estimate</h2>
+        <p class="lede">Fill this out and we'll have your request ready when you call — or just call or text Hector directly at (517) 862-7398. Either way, the estimate is free and there's no obligation.</p>
+        <ul class="estimate-points">
+          <li>Licensed &amp; insured — residential &amp; commercial</li>
+          <li>Military discount available — just ask</li>
+          <li>Serving Lansing and the surrounding Mid-Michigan communities</li>
+          <li>Reliable. Honest. Dependable.</li>
+        </ul>
+      </div>
+      <form class="estimate-form" id="estimateForm" novalidate>
+        <h3>Request a Free Estimate</h3>
+        <p class="form-sub">This form doesn't send anything anywhere — it builds your estimate summary to read when you call.</p>
+        <div class="field-row">
+          <div class="field" id="nameField">
+            <label for="estName">Your name</label>
+            <input type="text" id="estName" placeholder="Your full name" autocomplete="name">
+            <span class="err">Please enter your name.</span>
+          </div>
+          <div class="field" id="phoneField">
+            <label for="estPhone">Phone</label>
+            <input type="tel" id="estPhone" placeholder="(517) 555-1234" autocomplete="tel">
+            <span class="err">Please enter a phone number.</span>
+          </div>
+        </div>
+        <div class="field" id="serviceField">
+          <label for="estService">What do you need?</label>
+          <select id="estService">
+            <option value="" selected>Choose a service…</option>
+            <option>Driveways</option>
+            <option>Patios</option>
+            <option>Sidewalks</option>
+            <option>Garage Floors</option>
+            <option>Pole Barn Slabs</option>
+            <option>Decorative &amp; Stamped Concrete</option>
+            <option>Curb &amp; Gutter</option>
+            <option>Something else — I'll explain below</option>
+          </select>
+          <span class="err">Please choose a service.</span>
+        </div>
+        <div class="field">
+          <label for="estDetails">Tell us about the job <span style="font-weight:400;color:var(--muted)">(optional)</span></label>
+          <textarea id="estDetails" placeholder="e.g. Replacing a cracked 2-car driveway, about 20 x 40 ft, in Lansing"></textarea>
+        </div>
+        <button class="btn btn-amber" type="submit" style="width:100%">Build My Estimate Request &rarr;</button>
+        <p class="form-note">No obligation. Nothing is sent or stored — your summary appears below.</p>
+        <div class="confirm" id="estimateConfirm" aria-live="polite">
+          <h4>Your estimate request — ready</h4>
+          <p id="confirmText"></p>
+          <a class="btn btn-dark" href="tel:+15178627398">Call or Text Hector: (517) 862-7398</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section class="area-band" style="padding:44px 0">
+    <div class="wrap area-inner">
+      <div>
+        <div class="eyebrow">Service Area</div>
+        <h2 style="margin-bottom:6px">Proudly serving Lansing &amp; Mid-Michigan</h2>
+        <p>Based in Lansing, Michigan — serving Lansing and the surrounding Mid-Michigan communities. Not sure if we come to you? Call or text and ask.</p>
+      </div>
+      <a class="btn btn-dark" href="tel:+15178627398">Call (517) 862-7398</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Mendoza's Concrete LLC</h4>
+        <p style="max-width:380px">Reliable. Honest. Dependable. Concrete is what we do — teamwork is who we are. We work hard, take care of our crew, and take pride in every project from start to finish.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Driveways</a></li>
+          <li><a href="#services">Patios</a></li>
+          <li><a href="#services">Sidewalks</a></li>
+          <li><a href="#services">Garage Floors</a></li>
+          <li><a href="#services">Pole Barn Slabs</a></li>
+          <li><a href="#services">Decorative &amp; Stamped Concrete</a></li>
+          <li><a href="#services">Curb &amp; Gutter</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Call or text Hector</li>
+          <li><a href="tel:+15178627398">(517) 862-7398</a></li>
+          <li>Lansing, Michigan</li>
+          <li>Serving Lansing &amp; Mid-Michigan</li>
+          <li>Licensed &amp; Insured</li>
+          <li>Military Discount Available</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Mendoza's Concrete LLC &middot; All Rights Reserved</span>
+      <span>Demo preview — this site is not live on their domain yet.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="float-call" href="tel:+15178627398" aria-label="Call Mendoza's Concrete LLC">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+</a>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(s, c){ return (c || document).querySelector(s); };
+  var $$ = function(s, c){ return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+
+  /* Toast */
+  var toastEl = $("#toast"), toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove("show"); }, 3400);
+  }
+
+  /* Services: search + filter */
+  var grid = $("#servicesGrid"), noRes = $("#noResults"), searchInput = $("#serviceSearch");
+  var currentFilter = "all";
+  function applyFilter(){
+    var q = (searchInput.value || "").trim().toLowerCase();
+    var visible = 0;
+    $$(".service-card", grid).forEach(function(card){
+      var hay = card.textContent.toLowerCase();
+      var cats = (card.getAttribute("data-category") || "").split(" ");
+      var ok = (currentFilter === "all" || cats.indexOf(currentFilter) !== -1) && (!q || hay.indexOf(q) !== -1);
+      card.style.display = ok ? "" : "none";
+      if (ok) visible++;
+    });
+    noRes.classList.toggle("show", visible === 0);
+  }
+  $$("#serviceFilters .filter-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      $$("#serviceFilters .filter-btn").forEach(function(b){ b.classList.remove("active"); });
+      btn.classList.add("active");
+      currentFilter = btn.getAttribute("data-filter");
+      applyFilter();
+    });
+  });
+  searchInput.addEventListener("input", applyFilter);
+
+  /* Service card CTA preselects the service in the estimate form */
+  $$(".card-cta").forEach(function(link){
+    link.addEventListener("click", function(){
+      var svc = link.getAttribute("data-service");
+      var sel = $("#estService");
+      if (sel) sel.value = svc;
+      setTimeout(function(){ $("#estName").focus({preventScroll:true}); }, 400);
+      toast("Nice choice — tell us about your " + svc.toLowerCase() + " project.");
+    });
+  });
+
+  /* Estimate form */
+  $("#estimateForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    var name = $("#estName").value.trim();
+    var phone = $("#estPhone").value.trim();
+    var svc = $("#estService").value;
+    var ok = true;
+    $("#nameField").classList.toggle("invalid", !name); if (!name) ok = false;
+    $("#phoneField").classList.toggle("invalid", !phone); if (!phone) ok = false;
+    $("#serviceField").classList.toggle("invalid", !svc); if (!svc) ok = false;
+    if (!ok){ toast("A few details are missing — check the highlighted fields."); return; }
+    var details = $("#estDetails").value.trim();
+    var summary = name + " · " + svc + "\nPhone: " + phone;
+    if (details) summary += "\nJob details: " + details;
+    summary += "\n\nCall or text Hector at (517) 862-7398 to get your free, no-obligation estimate.";
+    $("#confirmText").textContent = summary;
+    $("#estimateConfirm").classList.add("show");
+    $("#estimateConfirm").scrollIntoView({behavior:"smooth", block:"center"});
+    toast("Request ready — call or text Hector to confirm.");
+  });
+})();
+</script>
+</body>
+</html>
